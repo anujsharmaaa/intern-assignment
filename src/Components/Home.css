@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    margin-top: 25px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 39px;
+    padding: 23px 24px;
+    list-style-type: none;
+}
+
+
+
+.navbar ul li{
+    color: black;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 4px 26px;
+}
+
+.navbar ul li:hover{
+    color: #ffffff;
+    background-color: rgb(255, 0, 85);
+}
+
+.heading{
+    padding: 0px 42px;
+}
+
+.heading h1{
+    justify-content: center;
+    background-color: red;
+    text-align: center;
+    margin: 34px 0px;
+    color: white;
+}
+
+
+/* Props section Css */
+
+.main-container{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 44px;
+    padding: 10px 26px;
+
+}
+
+.movie-container{
+  display: flex;
+}
+
+.movie-box img{
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 14px 0px;
+}
+
+.movie-details h4 h6{
+    margin: 2px 0px;
+    padding: 4px 0px;
+    cursor: default;
+}
+
+.movie-details h6{
+    font-size: 20px;
+    padding: 4px ;
+    color: red;
+    cursor: default;
+}
+
+
+.movie-button button{
+margin: 4px 9px;
+padding: 4px 9px;
+cursor: pointer;
+border-radius: 6px;
+background-color: #ffffff;
+}
+
+.movie-button button:hover{
+margin: 4px 9px;
+padding: 4px 9px;
+cursor: pointer;
+border-radius: 6px;
+color: #ffffff;
+background-color: #ff0217;
+
+}
