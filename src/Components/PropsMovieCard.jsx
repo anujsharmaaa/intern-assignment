@@ -20,7 +20,7 @@ function PropsMovieCard(props) {
 
             {/* Movie Button start  */}
             <div className="movie-button">
-              <a href= {props.vistNowLink}>
+              <a href={props.vistNowLink} target="_blank">
                 <button className="visit-now"> {props.vistNow} </button>
               </a>
               <button className="visit-now"> {props.bookNow} </button>

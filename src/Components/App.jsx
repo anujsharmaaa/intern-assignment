@@ -38,6 +38,7 @@ const App = () => {
               seriesGeners={value.seriesGeners}
               vistNow= {value.vistNow}
               bookNow= {value.bookNow}
+              vistNowLink= {value.vistNowLink}
          />
             )
 
