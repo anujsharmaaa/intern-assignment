@@ -2,8 +2,7 @@ import React from 'react'
 import PropsMovieCard from './PropsMovieCard.jsx'
 import MovieData from './MovieData.jsx'
 import "./Home.css";
-import Book from './Book.jsx';
-// routes 
+
 
 const App = () => {
 
@@ -11,14 +10,10 @@ const App = () => {
  
     <>
 
-   
-     
-    
-
       {/* Navbar Section Start  */}
       <div className="navbar">
         <ul>
-          <li> Home </li>
+         <a href="/"> <li> Home </li> </a> 
           <li> Delhi-NCR </li>
           <li> Latest-Movie </li>
           <li> Contact Us </li>
@@ -37,12 +32,14 @@ const App = () => {
               seriesTitle= {value.seriesTitle}
               seriesGeners={value.seriesGeners}
               vistNow= {value.vistNow}
-              bookNow= {value.bookNow}
+              bookNow={value.bookNow}
               vistNowLink= {value.vistNowLink}
          />
             )
 
           })}
+
+
    </>
   )
 }

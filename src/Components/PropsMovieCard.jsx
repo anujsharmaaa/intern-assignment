@@ -9,7 +9,7 @@ function PropsMovieCard(props) {
         <div className="movie-container">
           {/* Movie Box Start  */}
           <div className="movie-box">
-            <img src={props.imgSrc} alt="movie-img" />
+            <img src={props.imgSrc} height={650} width={450} alt="movie-img" />
 
             {/* Movies Details Start  */}
             <div className="movie-details">
