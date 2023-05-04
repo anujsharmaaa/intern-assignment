@@ -1,12 +1,14 @@
 import React from "react";
-import Book from "./Book.jsx";
+import { useNavigate } from "react-router-dom";
 
 function PropsMovieCard(props) {
 
+   const navigate = useNavigate();
 
-  const sendData = () => {
-    <Book/>
-  }
+   const navigateToBook = () => {
+    navigate("/book")
+   }
+ 
 
   return (
     <>
@@ -31,7 +33,7 @@ function PropsMovieCard(props) {
                 <button className="visit-now"> {props.vistNow} </button>
               </a>
               <button onClick={
-               sendData()
+               navigateToBook
               } className="book-now"> {props.bookNow} </button>
             </div>
             {/* movies button end  */}
