@@ -1,6 +1,13 @@
 import React from "react";
+import Book from "./Book.jsx";
 
 function PropsMovieCard(props) {
+
+
+  const sendData = () => {
+    <Book/>
+  }
+
   return (
     <>
       {/* Home page start  */}
@@ -23,7 +30,9 @@ function PropsMovieCard(props) {
               <a href={props.vistNowLink} target="_blank">
                 <button className="visit-now"> {props.vistNow} </button>
               </a>
-              <button className="visit-now"> {props.bookNow} </button>
+              <button onClick={
+               sendData()
+              } className="book-now"> {props.bookNow} </button>
             </div>
             {/* movies button end  */}
           </div>
